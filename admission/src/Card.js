@@ -11,7 +11,6 @@ const Card = ({data}) => {
     roundSeats,
     score,
   } = data;
-  console.log('Card data:', data);
   const minScore = score ? score.min : 'N/A';
   const avgScore = score ? score.avg : 'N/A';
   const maxScore = score ? score.max : 'N/A';
